@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.big-contaner {
+  font-family: "Merriweather Sans";
+  position: relative;
+  width: 90vw;
+  /* background: linear-gradient(to bottom, #bcf4f5, #00bfff); */
+  /* background-color: #00bfff; */
+  /* background-color: transparent; */
+  background-image: url(das.jpeg);
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size: cover;
+  opacity: 1;
+  border-radius: 8px;
+  display: grid;
+  align-content: center;
+}
+.main-section {
+  display: grid;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100vh;
+  align-items: center;
+}
+.searchBtn {
+  opacity: 0;
+}
+.searchBar {
+  width: 14rem;
+  height: 2.5rem;
+  border-radius: 20px;
+  text-align: center;
+  border: none;
+  border: 1px solid black;
+  /* font-weight: bolder; */
+  opacity: 0.7;
+}
+.img-main {
+  /* font-size: 7rem; */
+  width: 7rem;
+  margin-bottom: 1rem;
+  /* place-items: center; */
+  /* text-align: center; */
+  /* display: inline-block; */
+}
+.centerimg {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.flage {
+  width: 1.5rem;
+  height: 1.5rem;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+.card {
+  width: 25rem;
+  height: 25rem;
+  /* padding: 0 3rem 3rem 3rem; */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(30px);
+  color: white;
+  background-color: rgb(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  /* transition: all 20s; */
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  --hue: 165;
+  --saturation: 82.26%;
+  --lightness: 51.37%;
+}
+.card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+.flex-in {
+  display: none;
+  justify-content: center;
+
+  gap: 3rem;
+}
+.card {
+  align-self: center;
+  opacity: 1;
+}
+.temperatreCL {
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+}
+.countryName {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.textFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+.humiWind {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  /* padding: 6rem; */
+  gap: 8rem;
+}
+.windValue,
+.humanValue {
+  font-size: 1.5remB;
+}
+/* .hidden {
+  display: none;
+} */
+/* .big-contaner {
+  display: none;
+} */
+.formSearch {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -37%);
+}
+.windFlex {
+  display: flex;
+  gap: 0.7rem;
+}
+.img-wind {
+  width: 2rem;
+  margin-top: 0.5rem;
+}
+.pressure {
+  margin-top: 1.2rem;
+
+  display: flex;
+  justify-content: center;
+}
+p:hover {
+  text-shadow: 0 4px 6px skyblue;
+  transition: text-shadow 0.3s ease;
+}
